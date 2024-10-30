@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     console.log('Script loaded');
     
     // Telegram WebApp ready
