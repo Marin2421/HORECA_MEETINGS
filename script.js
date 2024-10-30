@@ -1,12 +1,10 @@
 window.addEventListener('load', function() {
     console.log('Script loaded');
-    
-    // Telegram WebApp ready
+
     Telegram.WebApp.ready(function() {
         console.log('Telegram WebApp is ready');
     });
 
-    // Проверка наличия кнопки перед добавлением обработчика
     const tgButton = document.getElementById('tg-button');
     if (tgButton) {
         tgButton.addEventListener('click', function() {
