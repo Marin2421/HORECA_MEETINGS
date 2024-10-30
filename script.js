@@ -1,5 +1,9 @@
 console.log('Script loaded');
 
+Telegram.WebApp.ready(function() {
+    console.log('Telegram WebApp is ready');
+});
+
 document.getElementById('tg-button').addEventListener('click', function() {
     console.log('Button clicked');
     Telegram.WebApp.init();
